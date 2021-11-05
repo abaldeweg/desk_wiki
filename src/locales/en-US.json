@@ -1,0 +1,22 @@
+{
+  "profile": "Profile",
+  "username": "Username",
+  "password": "Password",
+  "changePassword": "Change Password",
+  "login": "Login",
+  "logout": "Logout",
+  "theme": "Themes",
+  "language": "Language",
+  "save": "Save",
+  "remove": "Remove",
+  "passwordError": "Password could not be changed.",
+  "passwordSuccessful": "Password changed.",
+  "wikis": "Wikis",
+  "wiki": "Wiki",
+  "wrongCredentials": "Please, check your credentials.",
+  "edit_wiki": "Edit Wiki",
+  "title": "Title",
+  "add_new_wiki": "Add new Wiki",
+  "edit": "Edit",
+  "body": "Article"
+}
