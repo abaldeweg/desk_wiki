@@ -5,6 +5,14 @@
     </b-container>
 
     <b-container size="m" v-if="wiki.state.wiki">
+      <router-link
+        :to="{ name: 'wiki.show', params: { id: wiki.state.wiki.id } }"
+      >
+        {{ $t('show') }}
+      </router-link>
+    </b-container>
+
+    <b-container size="m" v-if="wiki.state.wiki">
       <b-form @submit.prevent="wiki.update()">
         <b-form-group>
           <b-form-item>
@@ -20,7 +28,7 @@
             <b-form-label for="body">{{ $t('body') }}</b-form-label>
           </b-form-item>
           <b-form-item>
-            <b-form-textarea v-model="wiki.state.wiki.body" rows="15" />
+            <b-form-textarea v-model="wiki.state.wiki.body" rows="25" />
           </b-form-item>
         </b-form-group>
 

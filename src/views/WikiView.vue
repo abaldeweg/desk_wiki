@@ -24,7 +24,7 @@
       <b-list
         v-for="item in wiki.state.wikis"
         :key="item.id"
-        :route="{ name: 'wiki.edit', params: { id: item.id } }"
+        :route="{ name: 'wiki.show', params: { id: item.id } }"
         divider
       >
         <template #title>{{ item.title }}</template>

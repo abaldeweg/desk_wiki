@@ -13,9 +13,15 @@ export default [
     }),
   },
   {
-    path: '/wiki/:id',
+    path: '/wiki/edit/:id',
     name: 'wiki.edit',
     component: () => import('../views/WikiEditView'),
+    props: true,
+  },
+  {
+    path: '/wiki/:id',
+    name: 'wiki.show',
+    component: () => import('../views/WikiShowView'),
     props: true,
   },
   {
