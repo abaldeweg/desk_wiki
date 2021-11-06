@@ -66,7 +66,7 @@ export default {
     })
 
     const create = () => {
-      wiki.create(state.title).then(() => {
+      wiki.create({ title: state.title, body: '# ' + state.title }).then(() => {
         state.title = ''
       })
     }

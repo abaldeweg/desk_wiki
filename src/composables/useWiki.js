@@ -15,8 +15,8 @@ export default function useWiki() {
 
   onMounted(list)
 
-  const create = (title) => {
-    return api.create({ title }).then(() => {
+  const create = (data) => {
+    return api.create(data).then(() => {
       list()
     })
   }
