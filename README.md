@@ -1,5 +1,7 @@
 # letter
 
+**This project is abondoned. Please have a look at https://github.com/abaldeweg/wiki .**
+
 baldeweg Desk contains services like letter and wiki.
 
 ## Getting Started
